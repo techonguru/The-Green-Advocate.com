@@ -1,0 +1,121 @@
+
+
+body {
+    background-image: url="advo.jpg";
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    
+    background-color: hsl(118, 64%, 24%);
+    padding: 10px 0;
+}
+    nav ul li a {
+        display: inline;
+        margin-right: 20px;
+    }
+
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #333;
+    color: #fff;
+}
+.logo-container {
+    background-color: green;
+    display: flex; /* Optional: helps center items if needed */
+    justify-content: center; /* Optional: centers content horizontally */
+    align-items: center; /* Optional: centers content vertically */
+    height: 50px; /* Adjust the height of the container if needed */
+}
+
+.logo1 {
+    height: 35px;
+    width: 75px;
+  
+}
+
+.logo-img {
+    max-height: 20px; /* Ensures the image fits within the container's height */
+    max-width: 20px; /* Ensures the image fits within the container's width */
+    object-fit: contain; /* Keeps the aspect ratio intact */
+    text-align: center;
+}
+.messo{
+    align-items: flex-end;
+}
+.logo-img {
+    width: 50px; 
+    height: 100px; 
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.social-icons i {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0077b5; /* Change this color for hover effect */
+}
+
+.social-icons a .fa-facebook {
+    color: #3b5998;
+}
+
+.social-icons a .fa-instagram {
+    color: #E4405F;
+}
+
+.social-icons a .fa-twitter {
+    color: #55acee;
+}
+.mess{
+    text-align: center;
+}
